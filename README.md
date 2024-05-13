@@ -11,9 +11,7 @@ This is a solution those who don't have the time to remember ! To Do List help y
   -
   -
 -
--
-
-**Note: **
+- **Note: **
 
 ## Overview
 
@@ -71,7 +69,7 @@ const proudOfThisFunc = () => {
 ## Author
 
 - GitHub - [@willemJou](https://github.com/WillemJou)
-- PortFolio - [Add your name here](https://willemjou.github.io/my-portfolio/)
+- PortFolio - [Willem Jouret](https://willemjou.github.io/my-portfolio/)
 - Twitter - [@29Glyphes](https://twitter.com/29Glyphes)
 
 ## Acknowledgments
