@@ -1,7 +1,6 @@
 import '@testing-library/jest-dom'
 import { render, screen } from '@testing-library/react'
 import Home from '@/app/page'
-import { SignInBtn } from '@/components/signInBtn'
 
 describe('Inside the Home component', () => {
   render(<Home />)

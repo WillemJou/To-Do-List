@@ -1,6 +1,6 @@
-import Image from 'next/image'
+'use client'
+import { LoginDialog } from '@/components/loginDialog'
 import { GitHubLogoIcon } from '@radix-ui/react-icons'
-import { SignInBtn } from '@/components/signInBtn'
 
 export default function Home() {
   return (
@@ -17,13 +17,13 @@ export default function Home() {
             target='_blank'
             rel='noopener noreferrer'>
             <div className='flex gap-x-3'>
-              <span>By Willem Jouret </span>
+              <span>By Willem Jouret</span>
               <GitHubLogoIcon />
             </div>
           </a>
         </div>
       </div>
-      <SignInBtn />
+      <LoginDialog />
     </main>
   )
 }
