@@ -1,6 +1,6 @@
 'use client'
-import { LoginDialog } from '@/components/loginDialog'
-import { SignUpDialog } from '@/components/ui/signupDialog'
+import { LoginDialog } from '@/components/login-dialog'
+import { SignUpDialog } from '@/components/signup-dialog'
 import { GitHubLogoIcon } from '@radix-ui/react-icons'
 
 export default function Home() {
@@ -9,10 +9,10 @@ export default function Home() {
       {/* Nettoyer les classNames avec le cn helper */}
       <div className='z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex'>
         <div className='flex flex-col gap-y-4'>
-          <p className='fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30'>
+          <h1 className='fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30'>
             This is my To-Do-List
-          </p>
-          <div className='flex justify-center gap-x-6'>
+          </h1>
+          <div className='flex justify-between gap-x-6'>
             <LoginDialog />
             <SignUpDialog />
           </div>
